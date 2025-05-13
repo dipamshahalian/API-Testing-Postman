@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "a8474a0e-c22b-4316-9db4-84438e1d7684",
+		"name": "Practice2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35367281",
+		"_collection_link": "https://personal-usage-3826.postman.co/workspace/DipamShah~708877aa-5300-4ae5-bb77-3719c19f2bb0/collection/35367281-a8474a0e-c22b-4316-9db4-84438e1d7684?action=share&source=collection_link&creator=35367281"
+	},
+	"item": [
+		{
+			"name": "Amazon Search: Ferrari T-shirt",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.amazon.in/s?k=ferrari puma tshirt",
+					"protocol": "https",
+					"host": [
+						"www",
+						"amazon",
+						"in"
+					],
+					"path": [
+						"s"
+					],
+					"query": [
+						{
+							"key": "k",
+							"value": "ferrari puma tshirt"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Amazon Search: Air Jordan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.amazon.in/s?k=Nike Air Jordan",
+					"protocol": "https",
+					"host": [
+						"www",
+						"amazon",
+						"in"
+					],
+					"path": [
+						"s"
+					],
+					"query": [
+						{
+							"key": "k",
+							"value": "Nike Air Jordan"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

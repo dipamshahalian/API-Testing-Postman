@@ -1,0 +1,27 @@
+{
+	"id": "d3d64c8c-3282-4f04-88e5-0eb1f58f4754",
+	"values": [
+		{
+			"key": "url",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "variable_key",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "Username",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2025-05-13T05:03:53.107Z",
+	"_postman_exported_using": "Postman/11.45.0"
+}

@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "948fcf87-de55-4e71-8e9c-4fabbc319765",
+		"name": "Practice1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35367281",
+		"_collection_link": "https://personal-usage-3826.postman.co/workspace/DipamShah~708877aa-5300-4ae5-bb77-3719c19f2bb0/collection/35367281-948fcf87-de55-4e71-8e9c-4fabbc319765?action=share&source=collection_link&creator=35367281"
+	},
+	"item": [
+		{
+			"name": "https://www.amazon.in/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.amazon.in/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"amazon",
+						"in"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://jsonplaceholder.typicode.com/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/users",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

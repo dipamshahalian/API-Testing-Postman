@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "e6032228-96a4-4987-b7b3-c2e137697340",
+		"name": "Google APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35367281",
+		"_collection_link": "https://personal-usage-3826.postman.co/workspace/DipamShah~708877aa-5300-4ae5-bb77-3719c19f2bb0/collection/35367281-e6032228-96a4-4987-b7b3-c2e137697340?action=share&source=collection_link&creator=35367281"
+	},
+	"item": [
+		{
+			"name": "SearchGoogle",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// Status Code Test\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Response Time test\r",
+							"pm.test(\"Response time is less than 500ms\", function() {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.com/?q=Dipam Shah Linkedin Alian Software",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Dipam Shah Linkedin Alian Software"
+						},
+						{
+							"key": "name",
+							"value": " GCET",
+							"disabled": true
+						},
+						{
+							"key": "skill",
+							"value": " automation testing",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
