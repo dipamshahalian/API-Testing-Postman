@@ -5,8 +5,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Postman-API%20Testing-orange?style=flat-square&logo=postman" />
-  <img src="https://img.shields.io/github/license/dipamshahalian/API-Testing-Postman?style=flat-square" />
-  <img src="https://img.shields.io/github/stars/dipamshahalian/API-Testing-Postman?style=flat-square" />
 </p>
 
 ---
