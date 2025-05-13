@@ -1,5 +1,3 @@
-### ✅ Copy-Paste-Ready `README.md`:
-
 ```markdown
 # 🚀 API Testing with Postman
 
